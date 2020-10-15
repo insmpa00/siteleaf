@@ -6,7 +6,7 @@ collections:
     title: Posts
     output: true
   test-collection:
-    title: Test COllection
+    title: Test Collection
     output: true
   uploads:
     title: Uploads
