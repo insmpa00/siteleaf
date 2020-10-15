@@ -3,7 +3,7 @@ title: Home
 position: 0
 lead-in: Bienvenido a Bimba y Lola
 heading: Bimba y Lola
-background_image: "/uploads/header.jpg"
+background_image: "/img/header.jpg"
 layout: index
 ---
 
