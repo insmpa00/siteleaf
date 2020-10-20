@@ -351,19 +351,37 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio .portfolio-item {
+#portfolio .portfolio-item, 
+#sostenibilidad .portfolio-item, 
+#prensa .portfolio-item, 
+#personas .portfolio-item, 
+#numeros .portfolio-item, 
+#grupo .portfolio-item, 
+#compliance .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item .portfolio-link, 
+#sostenibilidad .portfolio-item .portfolio-link, 
+#prensa .portfolio-item .portfolio-link, 
+#personas .portfolio-item .portfolio-link, 
+#numeros .portfolio-item .portfolio-link, 
+#grupo .portfolio-item .portfolio-link, 
+#compliance .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover,
+#sostenibilidad .portfolio-item .portfolio-link .portfolio-hover,
+#prensa .portfolio-item .portfolio-link .portfolio-hover,
+#personas .portfolio-item .portfolio-link .portfolio-hover,
+#numeros .portfolio-item .portfolio-link .portfolio-hover,
+#grupo .portfolio-item .portfolio-link .portfolio-hover,
+#compliance .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -375,11 +393,23 @@ section h3.section-subheading {
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover,
+#sostenibilidad .portfolio-item .portfolio-link .portfolio-hover:hover,
+#prensa .portfolio-item .portfolio-link .portfolio-hover:hover,
+#personas .portfolio-item .portfolio-link .portfolio-hover:hover,
+#numeros .portfolio-item .portfolio-link .portfolio-hover:hover,
+#grupo .portfolio-item .portfolio-link .portfolio-hover:hover,
+#compliance .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
+#sostenibilidad .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
+#prensa .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
+#personas .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
+#numeros .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
+#grupo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
+#compliance .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content  {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -390,16 +420,40 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
+#sostenibilidad .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
+#prensa .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
+#personas .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
+#numeros .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
+#grupo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
+#compliance .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
+#sostenibilidad .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#sostenibilidad .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
+#prensa .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#prensa .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
+#personas .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#personas .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
+#numeros .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#numeros .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
+#grupo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#grupo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
+#compliance .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#compliance .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#portfolio .portfolio-item .portfolio-caption,
+#sostenibilidad .portfolio-item .portfolio-caption,
+#prensa .portfolio-item .portfolio-caption,
+#personas .portfolio-item .portfolio-caption,
+#numeros .portfolio-item .portfolio-caption,
+#grupo .portfolio-item .portfolio-caption,
+#compliance .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -407,24 +461,48 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#portfolio .portfolio-item .portfolio-caption h4,
+#sostenibilidad .portfolio-item .portfolio-caption h4,
+#prensa .portfolio-item .portfolio-caption h4,
+#personas .portfolio-item .portfolio-caption h4,
+#numeros .portfolio-item .portfolio-caption h4,
+#grupo .portfolio-item .portfolio-caption h4,
+#compliance .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#portfolio .portfolio-item .portfolio-caption p,
+#sostenibilidad .portfolio-item .portfolio-caption p,
+#prensa .portfolio-item .portfolio-caption p,
+#personas .portfolio-item .portfolio-caption p,
+#numeros .portfolio-item .portfolio-caption p,
+#grupo .portfolio-item .portfolio-caption p,
+#compliance .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
 }
 
-#portfolio * {
+#portfolio *,
+#sostenibilidad *,
+#prensa *,
+#personas *,
+#numeros *,
+#grupo *,
+#compliance * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #portfolio .portfolio-item,
+	#sostenibilidad .portfolio-item,
+	#prensa .portfolio-item,
+	#personas .portfolio-item,
+	#numeros .portfolio-item,
+	#grupo .portfolio-item,
+	#compliance .portfolio-item	{
         margin: 0 0 30px;
     }
 }
