@@ -8,20 +8,26 @@ collections:
   grupo:
     title: Grupo
     output: true
+  numeros:
+    title: Numeros
+    output: true
+  personas:
+    title: Personas
+    output: true
   posts:
     title: Posts
     output: true
   prensa:
     title: Prensa
     output: true
+  sostenibilidad:
+    title: Sostenibilidad
+    output: true
   stores:
     title: Stores
     output: true
   uploads:
     title: Uploads
-    output: true
-  test:
-    title: test
     output: true
 defaults:
 - scope:
