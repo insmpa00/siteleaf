@@ -7,4 +7,3 @@ background_image: "/img/header.jpg"
 layout: index
 ---
 
-
