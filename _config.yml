@@ -2,8 +2,17 @@
 title: Bimba y Lola
 timezone: UTC
 collections:
+  compliance:
+    title: Compliance
+    output: true
+  grupo:
+    title: Grupo
+    output: true
   posts:
     title: Posts
+    output: true
+  prensa:
+    title: Prensa
     output: true
   stores:
     title: Stores
