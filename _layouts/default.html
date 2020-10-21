@@ -9,29 +9,40 @@
     {% include header.html %}
 	<div class="container" style="margin-top:100px;">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-md-8">
                         <div class="modal-body">
-                            <h2>{{ page.title }}</h2>
+                            
+							<h2>{{ page.title }}</h2>
                             <hr class="star-primary">
+							<h4>{{ page.subtitle }}</h4>
                             <img src="{{ page.image }}" class="img-responsive img-centered" alt="{{ page.alt }}">
-                            <div>{{ page.description }}</div>
+							
 							<div>{{ page.content }}</div>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ page.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ page.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ page.category }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            							
+							<p>{{ page.date }}</p>
                         </div>
                     </div>
+					<div class="col-md-4">
+							<h5>Noticias Relacionadas</h5>
+							<ul class="list-inline item-details">
+							{% for post in page.RelatedArticles %}
+								<li>Client:
+                                    <strong><a href="{{ page.Url }}">{{ page.Title }}</a>
+                                    </strong>
+                                </li>
+							{% endfor %}
+							</ul>
+							
+							<h5>Documentos Relacionados</h5>
+							<ul class="list-inline item-details">
+							{% for post in page.RelatedDocuments %}
+								<li>Client:
+                                    <strong><a href="{{ page.Url }}">{{ page.Title }}</a>
+                                    </strong>
+                                </li>
+							{% endfor %}
+							</ul>
+					</div>
                 </div>
             </div>
 
