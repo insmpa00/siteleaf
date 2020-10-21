@@ -1,14 +1,13 @@
 ---
-title: Hiking
-date: 2016-06-04 00:00:00 Z
+title: Nature
+date: 2016-06-01 00:00:00 Z
 categories:
 - activities
 tags:
-- excercise
-- exploring
-subtitle: Like walking, but outside
-modal-id: 6
-image: "/uploads/hiker-1.jpg"
+- nature
+subtitle: Hang out with this furry guy
+modal-id: 1
+image: "/uploads/bear.jpg"
 alt: image-alt
 project-date: 2014-04-01 00:00:00 Z
 client: Start Bootstrap
