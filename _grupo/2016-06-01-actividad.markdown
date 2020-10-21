@@ -11,6 +11,8 @@ alt: image-alt
 RelatedArticles:
 - Url: https://google.com
   Title: test
+- Url: https://google.com
+  Title: test
 RelatedDocuments:
 - Url: 
   Title: 
