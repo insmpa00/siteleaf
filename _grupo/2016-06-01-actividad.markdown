@@ -9,10 +9,10 @@ subtitle: Descripcion de Actividad
 image: "/uploads/lake.jpg"
 alt: image-alt
 RelatedArticles:
-- Url: 
-  Title: 
+- Url: google.com
+  Title: test
 RelatedDocuments:
-- Url: ''
+- Url: 
   Title: 
 layout: default
 ---
