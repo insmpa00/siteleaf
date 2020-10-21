@@ -1,19 +1,28 @@
 ---
-title: Escape
-date: 2016-06-02 00:00:00 Z
+title: Noticias
+date: 2020-06-06 00:00:00 Z
 categories:
-- activities
+- prensa
 tags:
-- accomodations
-subtitle: Sleep in this cozy shack
-modal-id: 2
-image: "/uploads/cabin.jpg"
+- Noticias
+subtitle: Descripcion de Noticias
+image: "/uploads/lake.jpg"
 alt: image-alt
-project-date: 2014-04-01 00:00:00 Z
-client: Start Bootstrap
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo
-  novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo
-  diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+RelatedArticles:
+- Url: https://google.com
+  Title: Enlace 1
+- Url: https://google.com
+  Title: Enlace 2
+RelatedDocuments:
+- Url: "/uploads/PROMOCION%20ESPECIAL%20FW20.pdf"
+  Title: Documento 1
+- Url: "/uploads/PROMOCION%20ESPECIAL%20FW20.pdf"
+  Title: Documento 2
 layout: default
 ---
 
+Esto es una Noticias de ejemplo con unn texto de Bimba y Lola. Esto es una Noticias de ejemplo con unn texto de Bimba y Lola. Esto es una Noticias de ejemplo con unn texto de Bimba y Lola. Esto es una Noticias de ejemplo con unn texto de Bimba y Lola. Esto es una Noticias de ejemplo con unn texto de Bimba y Lola.
+
+* Nueva lista
+
+* Otro elemento
