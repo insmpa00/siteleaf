@@ -23,9 +23,6 @@ collections:
   sostenibilidad:
     title: Sostenibilidad
     output: true
-  stores:
-    title: Stores
-    output: true
   uploads:
     title: Uploads
     output: true
