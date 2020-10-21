@@ -10,12 +10,14 @@ image: "/uploads/lake.jpg"
 alt: image-alt
 RelatedArticles:
 - Url: https://google.com
-  Title: test
+  Title: Enlace 1
 - Url: https://google.com
-  Title: test
+  Title: Enlace 2
 RelatedDocuments:
-- Url: 
-  Title: 
+- Url: "/uploads/PROMOCION%20ESPECIAL%20FW20.pdf"
+  Title: Documento 1
+- Url: "/uploads/PROMOCION%20ESPECIAL%20FW20.pdf"
+  Title: Documento 2
 layout: default
 ---
 
