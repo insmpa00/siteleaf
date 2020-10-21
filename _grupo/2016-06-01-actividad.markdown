@@ -9,7 +9,7 @@ subtitle: Descripcion de Actividad
 image: "/uploads/lake.jpg"
 alt: image-alt
 RelatedArticles:
-- Url: google.com
+- Url: https://google.com
   Title: test
 RelatedDocuments:
 - Url: 
