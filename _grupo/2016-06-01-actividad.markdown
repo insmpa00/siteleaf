@@ -17,3 +17,8 @@ RelatedDocuments:
 layout: default
 ---
 
+Esto es una actividad de ejemplo con unn texto de Bimba y Lola. Esto es una actividad de ejemplo con unn texto de Bimba y Lola. Esto es una actividad de ejemplo con unn texto de Bimba y Lola. Esto es una actividad de ejemplo con unn texto de Bimba y Lola. Esto es una actividad de ejemplo con unn texto de Bimba y Lola.
+
+* Nueva lista
+
+* Otro elemento
