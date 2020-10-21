@@ -26,8 +26,8 @@
 							<h5>Noticias Relacionadas</h5>
 							<ul class="list-inline item-details">
 							{% for post in page.RelatedArticles %}
-								<li>Client:
-                                    <strong><a href="{{ page.Url }}">{{ page.Title }}</a>
+								<li>
+                                    <strong><a href="{{ post.Url }}">{{ post.Title }}</a>
                                     </strong>
                                 </li>
 							{% endfor %}
@@ -36,8 +36,8 @@
 							<h5>Documentos Relacionados</h5>
 							<ul class="list-inline item-details">
 							{% for post in page.RelatedDocuments %}
-								<li>Client:
-                                    <strong><a href="{{ page.Url }}">{{ page.Title }}</a>
+								<li>
+                                    <strong><a href="{{ post.Url }}">{{ post.Title }}</a>
                                     </strong>
                                 </li>
 							{% endfor %}
