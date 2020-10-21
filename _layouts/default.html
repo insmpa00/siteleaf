@@ -24,7 +24,7 @@
                     </div>
 					<div class="col-md-4">
 							<h5>Noticias Relacionadas</h5>
-							<ul class="list-inline item-details">
+							<ul class="">
 							{% for post in page.RelatedArticles %}
 								<li>
                                     <strong><a href="{{ post.Url }}">{{ post.Title }}</a>
@@ -34,7 +34,7 @@
 							</ul>
 							
 							<h5>Documentos Relacionados</h5>
-							<ul class="list-inline item-details">
+							<ul class="">
 							{% for post in page.RelatedDocuments %}
 								<li>
                                     <strong><a href="{{ post.Url }}">{{ post.Title }}</a>
