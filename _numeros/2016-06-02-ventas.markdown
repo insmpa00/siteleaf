@@ -1,11 +1,11 @@
 ---
-title: Tiendas
+title: Ventas
 date: 2020-06-06 00:00:00 Z
 categories:
 - numeros
 tags:
-- Tiendas
-subtitle: Descripcion de Tiendas
+- Ventas
+subtitle: Descripcion de Ventas
 image: "/uploads/lake.jpg"
 alt: image-alt
 RelatedArticles:
@@ -21,7 +21,7 @@ RelatedDocuments:
 layout: default
 ---
 
-Esto es una Tiendas de ejemplo con unn texto de Bimba y Lola. Esto es una Tiendas de ejemplo con unn texto de Bimba y Lola. Esto es una Tiendas de ejemplo con unn texto de Bimba y Lola. Esto es una Tiendas de ejemplo con unn texto de Bimba y Lola. Esto es una Tiendas de ejemplo con unn texto de Bimba y Lola.
+Esto es una Ventas de ejemplo con unn texto de Bimba y Lola. Esto es una Ventas de ejemplo con unn texto de Bimba y Lola. Esto es una Ventas de ejemplo con unn texto de Bimba y Lola. Esto es una Ventas de ejemplo con unn texto de Bimba y Lola. Esto es una Ventas de ejemplo con unn texto de Bimba y Lola.
 
 * Nueva lista
 
