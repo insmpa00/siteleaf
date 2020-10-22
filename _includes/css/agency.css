@@ -962,10 +962,14 @@ body {
     font-size: 15px;
     text-align: left;
     background-color: #222;
-    border: 1px solid #cccccc;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-    background-clip: padding-box;
+    border: 1px solid #222 !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-clip: none !important;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+	max-height: 500px;
+    height: 500px;
 }
