@@ -37,12 +37,12 @@ $('div.modal').on('show.bs.modal', function() {
 });
 
 //Mouse Over in Header event
-$('ul.nav-bar > li').mouseover(function() {
+$('ul.navbar-nav > li').mouseover(function() {
 	alert('hola');
 	$(this).find('ul.submenu').show();
 });
 
 //Mouse Over in Header event
-$('ul.nav-bar > li').mouseout(function() {
+$('ul.navbar-nav > li').mouseout(function() {
 	$(this).find('ul.submenu').hide();
 });
