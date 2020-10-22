@@ -5,7 +5,7 @@ lead-in:
 heading: Bimba y Lola
 background_image: "/img/header.jpg"
 title_es: Home-ES
-layout: index
+layout: default-es
 ---
 
 Bienvenido al sitio de Bimba y Lola
