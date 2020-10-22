@@ -35,3 +35,13 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+//Mouse Over in Header event
+$('ul.nav-bar > li').mouseover(function() {
+	$(this).find('ul.submenu').show();
+});
+
+//Mouse Over in Header event
+$('ul.nav-bar > li').mouseout(function() {
+	$(this).find('ul.submenu').hide();
+});
