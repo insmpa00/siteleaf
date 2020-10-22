@@ -38,6 +38,7 @@ $('div.modal').on('show.bs.modal', function() {
 
 //Mouse Over in Header event
 $('ul.nav-bar > li').mouseover(function() {
+	alert('hola');
 	$(this).find('ul.submenu').show();
 });
 
