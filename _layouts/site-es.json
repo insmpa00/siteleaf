@@ -1,0 +1,18 @@
+---
+---
+
+{% comment %}
+
+  NOTE: Create one of these Liquid templates for each language you wish to support ("es" = Spanish).
+  
+  Then add a meta data field to your page/post called "title_es" or "body_es" (for example), where the translated copy should go.
+
+{% endcomment %}
+{
+  <% for page in site.pages %>
+    "{{page.id}}": {
+      "title": "{{page.title_es}}",
+      "body": "{{page.body_es}}"
+    }<% unless forloop.last %>,<% endunless %>
+  <% endfor %>
+}

@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<h1 data-localize="{{page.id}}.title">{{page.title}}</h1>
+
+<div data-localize="{{page.id}}.body">
+  {{content}}
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="https://raw2.github.com/coderifous/jquery-localize/master/build/jquery.localize.js"></script>
+<script>
+  // translate English text to Spanish
+  $("[data-localize]").localize("site", { language: "es" })
+</script>
+  
+</body>
+</html>
