@@ -24,13 +24,12 @@ RelatedDocuments:
 - Url: "/uploads/PROMOCION%20ESPECIAL%20FW20.pdf"
   Title: Documento 2
   Title_en: Link 2
-content_en: Esto es una Equipos de ejemplo con unn texto de Bimba y Lola. Esto es
-  una Equipos de ejemplo con unn texto de Bimba y Lola. Esto es una Equipos de ejemplo
-  con unn texto de Bimba y Lola. Esto es una Equipos de ejemplo con unn texto de Bimba
-  y Lola. Esto es una Equipos de ejemplo con unn texto de Bimba y Lola.
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo
-  novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo
-  diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+content_en: |-
+  Inglés. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+  * Hola
+
+  * Adios
 layout: default
 ---
 
