@@ -19,4 +19,12 @@
 	<!-- Translation -->
     <script src="{{ "/js/jquery.localize.min.js" | prepend: site.baseurl }}"></script>
 	
-
+	<script>
+		// In a browser where the language is set to French
+		$("[data-localize]").localize("example")
+	</script>
+	
+	<script>
+		$("[data-localize]")
+		.localize("header")
+	</script>
