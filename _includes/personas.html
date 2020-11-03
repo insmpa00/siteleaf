@@ -19,8 +19,8 @@
                         <img src="{{ post.image }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <h4 data-localize="{{post.id}}.title">{{ post.title }}</h4>
+                        <p class="text-muted" data-localize="{{post.id}}.subtitle">{{ post.subtitle }}</p>
                     </div>
                 </div>
             {% endfor %}
