@@ -1,0 +1,11 @@
+{
+  "people": "Personas 2",
+  
+  {% for post in site.personas %}
+    "{{post.id}}": {
+      "title": "{{post.title}}",
+      "subtitle": "{{post.subtitle}}"
+    }
+	{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}
