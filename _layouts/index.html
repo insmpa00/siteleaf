@@ -4,17 +4,32 @@
   {% include head.html %}
 
     <body id="page-top" class="index">
-
-    {% include header.html %}
-	{% include grupo.html %}
-    {% include numeros.html %}
-	{% include prensa.html %}
-    {% include personas.html %}
-	{% include sostenibilidad.html %}
-	{% include compliance.html %}
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
+	
+	{% assign languageBrowser = navigator.language || navigator.userLanguage %}
+	{% assign isEnglish = languageBrowser contains "es" %}
+	
+	{% if isEnglish %}
+	    {% include header.html %}
+		{% include grupo.html %}
+		{% include numeros.html %}
+		{% include prensa.html %}
+		{% include personas.html %}
+		{% include sostenibilidad.html %}
+		{% include compliance.html %}
+		{% include footer.html %}
+		{% include modals.html %}
+		{% include js.html %}
+	{% else %}
+		{% include header.html %}
+		{% include grupo.html %}
+		{% include numeros.html %}
+		{% include prensa.html %}
+		{% include personas.html %}
+		{% include sostenibilidad.html %}
+		{% include compliance.html %}
+		{% include modals.html %}
+		{% include js.html %}
+	{% endif %}
 
     </body>
 </html>
