@@ -1,10 +1,10 @@
 {
   "people": "People",
   
-  {% for post in site.personas %}
+  {%- for post in site.personas -%}
     "{{post.id}}": {
       "title": "{{post.title_en}}",
       "subtitle": "{{post.subtitle_en}}"
-    }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    }{%- unless forloop.last -%},{%- endunless -%}
+  {%- endfor -%}
 }
