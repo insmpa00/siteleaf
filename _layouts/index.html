@@ -5,10 +5,9 @@
 
     <body id="page-top" class="index">
 	
-	{% assign languageBrowser = navigator.language || navigator.userLanguage %}
-	{% assign isEnglish = languageBrowser contains "es" %}
-	
-	{% if isEnglish %}
+	<!-- {% assign languageBrowser = navigator.language || navigator.userLanguage %} -->
+	{% assign languageBrowser = "estar" %}
+	{% if languageBrowser contains "es" %}
 	    {% include header.html %}
 		{% include grupo.html %}
 		{% include numeros.html %}
