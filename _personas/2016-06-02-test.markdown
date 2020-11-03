@@ -1,4 +1,38 @@
 ---
-title: 2016 06 02 Test
+title: Equipos Test
+date: 2020-06-06 00:00:00 Z
+categories:
+- personas
+tags:
+- Equipos
+title_en: Teams
+subtitle: Descripcion de Equipos
+subtitle_en: Teams Description
+image: "/uploads/lake.jpg"
+alt: image-alt
+RelatedArticles:
+- Url: https://google.com
+  Title: Enlace 1
+  Title_en: Link 1
+- Url: https://google.com
+  Title: Enlace 2
+  Title_en: Link 2
+RelatedDocuments:
+- Url: "/uploads/PROMOCION%20ESPECIAL%20FW20.pdf"
+  Title: Documento 1
+  Title_en: Link 1
+- Url: "/uploads/PROMOCION%20ESPECIAL%20FW20.pdf"
+  Title: Documento 2
+  Title_en: Link 2
+content_en: Esto es una Equipos de ejemplo con unn texto de Bimba y Lola. Esto es
+  una Equipos de ejemplo con unn texto de Bimba y Lola. Esto es una Equipos de ejemplo
+  con unn texto de Bimba y Lola. Esto es una Equipos de ejemplo con unn texto de Bimba
+  y Lola. Esto es una Equipos de ejemplo con unn texto de Bimba y Lola.
+layout: default
 ---
 
+sto es una Equipos de ejemplo con unn texto de Bimba y Lola. Esto es una Equipos de ejemplo con unn texto de Bimba y Lola. Esto es una Equipos de ejemplo con unn texto de Bimba y Lola. Esto es una Equipos de ejemplo con unn texto de Bimba y Lola. Esto es una Equipos de ejemplo con unn texto de Bimba y Lola.
+
+* Nueva lista
+
+* Otro elemento
